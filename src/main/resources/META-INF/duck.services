@@ -1,0 +1,6 @@
+jdk=top.naive.duck.reflection.impl.jdk.JdkProxyBuilder
+cglib=top.naive.duck.reflection.impl.cglib.CglibProxyBuilder
+
+top.naive.duck.annotations.Aspect=top.naive.duck.parsing.impl.AopAnnotationResolver
+top.naive.duck.annotations.PropertyScan=top.naive.duck.parsing.impl.ScanAnnotationResolver
+top.naive.duck.annotations.Component=top.naive.duck.parsing.impl.ParseAnnotationResolver
